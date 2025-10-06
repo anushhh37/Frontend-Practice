@@ -1,0 +1,11 @@
+h1{
+    padding: 500px;
+    border-top: 20px solid black;
+
+}
+a:hover{
+    color: black;
+}
+a:visited{
+    color: blue;
+}

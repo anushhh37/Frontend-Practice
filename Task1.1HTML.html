@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginpage.css">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form" action="">
+        <h1>You are successfully logged in!! </h1>
+       <h1> Enter Your Order Details</h1>
+        <label for="name">Enter your name</label>
+        <input type="text" placeholder="Enter your name" id="name">
+        <label for="Dish">Enter the dish name</label>
+        <input type="text" placeholder="Enter the dish" id="dish">
+        <label for="quantity">Enter the no of quantity</label>
+        <input type="number" name="quantity" placeholder="Enter the quantity" id="quantity">
+        <label for="time">Enter the timing</label>
+        <input type="time" name="time" placeholder="Enter the timing" id="time">
+        <label for="payment">Enter the payment type</label>
+        <input type="text" placeholder="Enter the payment type" name="payment" id="payment">
+  <button type="submit" onclick="submitbtn(event)" >Submit</button>
+    </form>
+
+
+<table id="table" border="1px">
+    <tr>
+        <th colspan="10"> <h2>Order Details</h2></th>
+    </tr>
+   
+    <tr id="trs">
+        <th>Name</th>
+        <th>Dish</th>
+        <th>Quantity</th>
+        <th>Timimg</th>
+        <th>Payment Type</th>
+    </tr>
+</table>
+    <script src="loginpage.js"></script>
+</body>
+</html>
